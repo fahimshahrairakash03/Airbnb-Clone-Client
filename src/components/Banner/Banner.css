@@ -1,0 +1,26 @@
+.banner {
+  background: url("https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80");
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner_info {
+  background-color: black;
+  color: white;
+  padding: 25vh 50px 40px 50px;
+  width: 30%;
+  height: 100%;
+}
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+.banner_searchbtn {
+  background-color: white;
+  font-weight: 900;
+  text-transform: inherit;
+  color: #ff7779;
+}
