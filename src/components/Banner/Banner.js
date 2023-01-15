@@ -8,21 +8,18 @@ const Banner = () => {
     <div className="banner">
       <div className="banner_search">
         {showSearch && <Search />}
-        <button
-          onClick={() => setShowSearch(!showSearch)}
-          className="banner_searchbtn"
-          variant="outlined"
-        >
-          Search Dates
-        </button>
+
+        <div className="btn-group mx-auto">
+          <button className="btn bg-gray-400 border-r-2xl-">Button</button>
+          <button className="btn bg-gray-400 ">Button</button>
+          <button
+            onClick={() => setShowSearch(!showSearch)}
+            className="btn bg-gray-400"
+          >
+            Search Dates
+          </button>
+        </div>
       </div>
-      <div className="banner_info">
-        <h1>Get out and stretch your imagination</h1>
-        <h5>
-          Plan a different kind of gateway to uncover the hidden gems near you{" "}
-        </h5>
-      </div>
-      <button variant="outlined">Explore Nearby</button>
     </div>
   );
 };
